@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "arrSort",
+            "request": "launch",
+            "mainClass": "arrSort",
+            "projectName": "Java_49b34152"
+        },
+        {
+            "type": "java",
             "name": "QuickSort",
             "request": "launch",
             "mainClass": "QuickSort",
