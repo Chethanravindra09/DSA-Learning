@@ -1,0 +1,161 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "MergeSort",
+            "request": "launch",
+            "mainClass": "MergeSort",
+            "projectName": "Java_49b34152"
+        },
+        {
+            "type": "java",
+            "name": "InsertionSort",
+            "request": "launch",
+            "mainClass": "InsertionSort",
+            "projectName": "Java_49b34152"
+        },
+        {
+            "type": "java",
+            "name": "BubbleSort",
+            "request": "launch",
+            "mainClass": "BubbleSort",
+            "projectName": "Java_49b34152"
+        },
+        {
+            "type": "java",
+            "name": "SelectionSort",
+            "request": "launch",
+            "mainClass": "SelectionSort",
+            "projectName": "Java_49b34152"
+        },
+        {
+            "type": "java",
+            "name": "HashMapNum",
+            "request": "launch",
+            "mainClass": "HashMapNum",
+            "projectName": "Java_49b34152"
+        },
+        {
+            "type": "java",
+            "name": "HashNum",
+            "request": "launch",
+            "mainClass": "HashNum",
+            "projectName": "Java_49b34152"
+        },
+        {
+            "type": "java",
+            "name": "numPrint",
+            "request": "launch",
+            "mainClass": "numPrint",
+            "projectName": "Java_49b34152"
+        },
+        {
+            "type": "java",
+            "name": "CheckPrime",
+            "request": "launch",
+            "mainClass": "CheckPrime",
+            "projectName": "Java_49b34152"
+        },
+        {
+            "type": "java",
+            "name": "ArmstrongNum",
+            "request": "launch",
+            "mainClass": "ArmstrongNum",
+            "projectName": "Java_49b34152"
+        },
+        {
+            "type": "java",
+            "name": "GCD",
+            "request": "launch",
+            "mainClass": "GCD",
+            "projectName": "Java_49b34152"
+        },
+        {
+            "type": "java",
+            "name": "CountDigits",
+            "request": "launch",
+            "mainClass": "CountDigits",
+            "projectName": "Java_49b34152"
+        },
+        {
+            "type": "java",
+            "name": "NumPattern",
+            "request": "launch",
+            "mainClass": "NumPattern",
+            "projectName": "Java_49b34152"
+        },
+        {
+            "type": "java",
+            "name": "Patterns2",
+            "request": "launch",
+            "mainClass": "Patterns2",
+            "projectName": "Java_49b34152"
+        },
+        {
+            "type": "java",
+            "name": "Patterns",
+            "request": "launch",
+            "mainClass": "Patterns",
+            "projectName": "Java_49b34152"
+        },
+        {
+            "type": "java",
+            "name": "HashMapInterface",
+            "request": "launch",
+            "mainClass": "HashMapInterface",
+            "projectName": "Java_49b34152"
+        },
+        {
+            "type": "java",
+            "name": "StackInterface",
+            "request": "launch",
+            "mainClass": "StackInterface",
+            "projectName": "Java_49b34152"
+        },
+        {
+            "type": "java",
+            "name": "iterator",
+            "request": "launch",
+            "mainClass": "iterator",
+            "projectName": "Java_49b34152"
+        },
+        {
+            "type": "java",
+            "name": "Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "Demo",
+            "request": "launch",
+            "mainClass": "Demo",
+            "projectName": "Java_49b34152"
+        },
+        {
+            "type": "java",
+            "name": "Democlass",
+            "request": "launch",
+            "mainClass": "Democlass",
+            "projectName": "Java_49b34152"
+        },
+        {
+            "type": "java",
+            "name": "Hello",
+            "request": "launch",
+            "mainClass": "Hello",
+            "projectName": "Java_49b34152"
+        },
+        {
+            "type": "java",
+            "name": "ListCollections",
+            "request": "launch",
+            "mainClass": "ListCollections",
+            "projectName": "Java_49b34152"
+        }
+    ]
+}
