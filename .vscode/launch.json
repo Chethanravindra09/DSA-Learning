@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "MisssingNum",
+            "request": "launch",
+            "mainClass": "MisssingNum",
+            "projectName": "Java_49b34152"
+        },
+        {
+            "type": "java",
+            "name": "movZero",
+            "request": "launch",
+            "mainClass": "movZero",
+            "projectName": "Java_49b34152"
+        },
+        {
+            "type": "java",
             "name": "arrSort",
             "request": "launch",
             "mainClass": "arrSort",
