@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "LeastAppr",
+            "request": "launch",
+            "mainClass": "LeastAppr",
+            "projectName": "Java_49b34152"
+        },
+        {
+            "type": "java",
+            "name": "numMoveByOnePlace",
+            "request": "launch",
+            "mainClass": "numMoveByOnePlace",
+            "projectName": "Java_49b34152"
+        },
+        {
+            "type": "java",
             "name": "MisssingNum",
             "request": "launch",
             "mainClass": "MisssingNum",

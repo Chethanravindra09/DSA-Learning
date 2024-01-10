@@ -38,6 +38,7 @@ public class MisssingNum {
                     minval=count;
                     minCount=num;
                 }
+
             }
             return minCount;
         
