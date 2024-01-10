@@ -6,6 +6,27 @@
     "configurations": [
         {
             "type": "java",
+            "name": "AlternateNum",
+            "request": "launch",
+            "mainClass": "AlternateNum",
+            "projectName": "Java_49b34152"
+        },
+        {
+            "type": "java",
+            "name": "Sort012",
+            "request": "launch",
+            "mainClass": "Sort012",
+            "projectName": "Java_49b34152"
+        },
+        {
+            "type": "java",
+            "name": "StockBuy",
+            "request": "launch",
+            "mainClass": "StockBuy",
+            "projectName": "Java_49b34152"
+        },
+        {
+            "type": "java",
             "name": "SubarraySum",
             "request": "launch",
             "mainClass": "SubarraySum",
