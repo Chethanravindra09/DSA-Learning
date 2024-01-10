@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "SubarraySum",
+            "request": "launch",
+            "mainClass": "SubarraySum",
+            "projectName": "Java_49b34152"
+        },
+        {
+            "type": "java",
+            "name": "sort",
+            "request": "launch",
+            "mainClass": "sort",
+            "projectName": "Java_49b34152"
+        },
+        {
+            "type": "java",
             "name": "LeastAppr",
             "request": "launch",
             "mainClass": "LeastAppr",
