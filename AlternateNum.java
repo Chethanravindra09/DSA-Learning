@@ -1,3 +1,4 @@
+import java.util.ArrayList;
 import java.util.Arrays;
 
 public class AlternateNum {
@@ -5,20 +6,25 @@ public class AlternateNum {
 
         int[] a={1, 2, -4, -5};
         int n = a.length;
-        int j =0;
-        int[] temp = new int[n];
-        for(int i =0;i<=n-1;i++){
+        
+        ArrayList<Integer> pos= new ArrayList<>();
+        ArrayList<Integer> neg = new ArrayList<>();
 
-            if(i%2==0){
-                temp[j]=a[i];
-                j++;
+        for(int i=0;i<n;i++){
+            if(a[i]<0){
+                neg.add(a[i]);
             }
-            if(i%2!=0){
-                temp[j]=a[i];
-                j++;
+            else{
+                pos.add(a[i]);
             }
         }
-        System.out.println(Arrays.toString(temp));
+
+        for(int i =0;i<n/2;i++){
+            a[2*i]=pos.get(i);
+            a[2*i+1]=neg.get(i);
+        }
+       
+        System.out.println(Arrays.toString(a));
     }
 }
   

@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "nextPerm",
+            "request": "launch",
+            "mainClass": "nextPerm",
+            "projectName": "Java_49b34152"
+        },
+        {
+            "type": "java",
             "name": "AlternateNum",
             "request": "launch",
             "mainClass": "AlternateNum",
