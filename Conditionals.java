@@ -31,5 +31,13 @@ public class Conditionals {
             System.out.println("All are equal");
         }
 
+
+        while(a>0){
+            if(!(a%2==0)) {
+                System.out.println(a);
+            }
+            a--;
+        }
+
     }
 }
