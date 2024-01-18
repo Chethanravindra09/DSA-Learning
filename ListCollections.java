@@ -3,12 +3,10 @@ import java.util.ArrayList;
 import java.util.Collections;
 import java.util.Iterator;
 
-
 public class ListCollections {
     public static void main(String[] args) {
         ArrayList<Integer> numbers = new ArrayList<>();
         ArrayList<Integer> numbers1 = new ArrayList<>();
-
 
         //List interface add() method.
         numbers.add(1);
