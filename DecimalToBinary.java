@@ -4,7 +4,7 @@ import java.util.Scanner;
 public class DecimalToBinary {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        System.out.println("Enter the Decimal Number to convert into Binary: ");
+        System.out.print("Enter the Decimal Number to convert into Binary: ");
         int n=sc.nextInt();
         int num=n;
         ArrayList<Integer> bin = new ArrayList<>();
