@@ -15,5 +15,6 @@ public class BinarytoDecimal {
             n=n/10;
         }
         System.out.println("Decimal number of given binary "+num+" is "+ Decimal);
+        sc.close();
     }
 }

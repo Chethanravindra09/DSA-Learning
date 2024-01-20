@@ -38,6 +38,6 @@ public class Conditionals {
             }
             a--;
         }
-
+        sc.close();
     }
 }

@@ -326,6 +326,28 @@ public class StarPatterns {
         }
     }
 
+    static void pattern28(int n) {
+        for (int row = 1; row <= n; row++) {
+            for (int col = 1; col <= n - row; col++) {
+                System.out.print("  ");
+            }
+            for (int col = 1; col <= 2 * row - 1; col++) {
+                System.out.print("* ");
+            }
+            System.out.println();
+        }
+
+        for (int row = n; row >= 1; row--) {
+            for (int col = 1; col <= n - row; col++) {
+                System.out.print("  ");
+            }
+            for (int col = 1; col <= 2 * row - 1; col++) {
+                System.out.print("* ");
+            }
+            System.out.println();
+        }
+    }
+
 
     public static void main(String[] args) {
         System.out.println("-----------------Pattern 1---------------------------------------");
@@ -382,5 +404,7 @@ public class StarPatterns {
         pattern26(5);
         System.out.println("-----------------Pattern 27--------------------------------------");
         pattern27(5);
+        System.out.println("-----------------Pattern 28--------------------------------------");
+        pattern28(5);
     }
 }
