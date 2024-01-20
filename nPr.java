@@ -5,7 +5,7 @@ public class nPr {
             return n > 1 ? n * fact(n - 1) : n;
         }
 
-        static int nPr(int n, int r) {
+        static int nPerm(int n, int r) {
 
             int perm = fact(n) / (fact(n - r));
 
@@ -18,8 +18,9 @@ public class nPr {
             int n = sc.nextInt();
             System.out.print("Enter the value of r:");
             int r = sc.nextInt();
-            int permutation = nPr(n, r);
+            int permutation = nPerm(n, r);
             System.out.print(n + "P" + r + " is " + permutation);
+            sc.close();
         }
     }
 

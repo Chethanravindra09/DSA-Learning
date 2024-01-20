@@ -5,7 +5,7 @@ public class nCr {
         return n > 1 ? n * fact(n - 1) : n;
     }
 
-    static int nCr(int n, int r) {
+    static int nCrp(int n, int r) {
 
         int comb = fact(n) / (fact(n - r) * fact(r));
 
@@ -18,7 +18,8 @@ public class nCr {
         int n = sc.nextInt();
         System.out.print("Enter the value of r:");
         int r = sc.nextInt();
-        int combination = nCr(n, r);
+        int combination = nCrp(n, r);
         System.out.print(n + "C" + r + " is " + combination);
+        sc.close();
     }
 }

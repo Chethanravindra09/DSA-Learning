@@ -1,5 +1,3 @@
-import java.util.ArrayList;
-import java.util.Collections;
 import java.util.HashMap;
 
 public class MisssingNum {
@@ -7,8 +5,6 @@ public class MisssingNum {
 
 
         int a[]={1, 1, 2, 3, 3, 4, 4};
-        int N=a.length;
-
         int n=missingNumber(a);
         System.out.println(n);
 
